@@ -1,0 +1,69 @@
+/* AppCart */
+.appCart {
+    font-size: 30px;
+    margin-left: 50px;
+    justify-content: right;
+}
+
+.tbCart {
+    margin: 0 auto;
+    width: 35vw;
+    max-width: 100%;
+}
+
+.tbCart {
+    color: #333;
+    background: white;
+    border: 1px solid grey;
+    font-size: 12pt;
+    border-collapse: collapse;
+}
+
+.tbCart caption {
+    padding: .5em;
+}
+
+.headCart {
+    color: #777;
+    background: rgba(0, 0, 0, .1);
+}
+
+.thCart {
+    color: #777;
+    background: rgba(0, 0, 0, .1);
+}
+
+.tdCart {
+    padding: .5em;
+    border: 1px solid lightgrey;
+}
+
+/* table {
+    margin: 0 auto;
+    width: 35vw;
+    max-width: 100%;
+}
+
+table {
+    color: #333;
+    background: white;
+    border: 1px solid grey;
+    font-size: 12pt;
+    border-collapse: collapse;
+}
+
+table thead th,
+table tfoot th {
+    color: #777;
+    background: rgba(0, 0, 0, .1);
+}
+
+table caption {
+    padding: .5em;
+}
+
+table th,
+table td {
+    padding: .5em;
+    border: 1px solid lightgrey;
+} */

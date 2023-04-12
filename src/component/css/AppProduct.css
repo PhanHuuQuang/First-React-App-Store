@@ -1,0 +1,19 @@
+.itemCardImage {
+    height: 150px !important;
+    object-fit: scale-down;
+}
+
+.itemCard {
+    width: 100%;
+    max-width: 370px;
+    height: 100%;
+    margin: 8px;
+}
+
+.itemCardBadge {
+    margin: 20px;
+}
+
+.productsContainer {
+    padding: 8px;
+}

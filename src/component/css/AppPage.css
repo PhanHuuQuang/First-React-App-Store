@@ -1,0 +1,114 @@
+/*Form Login*/
+/* .formLogin {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+} */
+.formLogin {
+    display: flex;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 80vh;
+    /* height: auto; */
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.formLogin .ant-form-item {
+    margin-bottom: 15px;
+}
+
+/*Form infor*/
+.formInfor {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+}
+
+.formInfor th {
+    text-align: left;
+}
+
+/*Form Register*/
+.formRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    /* height: auto; */
+}
+
+.formRegister th {
+    padding-right: 10px;
+}
+
+.formRegister .ant-form-item {
+    margin-bottom: 15px;
+}
+
+/*Product detail page*/
+.btnCart {
+    float: right;
+    /* display: inline-block; */
+    margin: 5px;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    text-shadow: none;
+}
+
+.btnCart:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btnBuy {
+    float: right;
+    /* display: inline-block; */
+    margin: 5px;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+    text-shadow: none;
+}
+
+.btnBuy:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.productImage {
+    height: 50vh !important;
+    object-fit: scale-down;
+}
